@@ -1,11 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, FlatList } from 'react-native';
+import ProductContainer from './Screens/Products/Products';
 
 export default function App() {
+
+  const data = () => {
+    fetch("./assets/data.json").then(json => {
+        return  json.json();
+    }).then(data => {
+      console.log(data);
+    })
+  }
+
+  data();
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <ProductContainer />
     </View>
   );
 }

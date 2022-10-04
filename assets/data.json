@@ -1,0 +1,70 @@
+[
+    {
+        "_id": {
+            "$oid": "82kda23asj2392323182io23"
+        },
+        "image": "should be some path",
+        "brand": "puma",
+        "rating": 23,
+        "price": 98,
+        "numReviews": 299,
+        "isFeatured": true,
+        "name": "Puma Shoes",
+        "description": "alskdfjasl;kdf",
+        "category": {
+            "$oid": "82kda23asj2392323182io23"
+        },
+        "countInStock": 67
+    },
+    {
+        "_id": {
+            "$oid": "82kda23asj2392323182io23"
+        },
+        "image": "should be some path",
+        "brand": "Adidas",
+        "rating": 23,
+        "price": 98,
+        "numReviews": 299,
+        "isFeatured": true,
+        "name": "Bags",
+        "description": "alskdfjasl;kdf",
+        "category": {
+            "$oid": "82kda23asj2392323182io23"
+        },
+        "countInStock": 67
+    },
+    {
+        "_id": {
+            "$oid": "82kda23asj2392323182io23"
+        },
+        "image": "should be some path",
+        "brand": "Nike",
+        "rating": 23,
+        "price": 98,
+        "numReviews": 299,
+        "isFeatured": true,
+        "name": "Clothes",
+        "description": "alskdfjasl;kdf",
+        "category": {
+            "$oid": "82kda23asj2392323182io23"
+        },
+        "countInStock": 67
+    },
+    {
+        "_id": {
+            "$oid": "82kda23asj2392323182io23"
+        },
+        "image": "should be some path",
+        "brand": "Jordan",
+        "rating": 23,
+        "price": 98,
+        "numReviews": 299,
+        "isFeatured": true,
+        "name": "Jordan Shoes",
+        "description": "alskdfjasl;kdf",
+        "category": {
+            "$oid": "82kda23asj2392323182io23"
+        },
+        "countInStock": 67
+    }
+]
