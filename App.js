@@ -1,18 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, FlatList } from 'react-native';
-import ProductContainer from './Screens/Products/Products';
+import ProductContainer from './Screens/Products/ProductsContainer';
 
 export default function App() {
-
-  const data = () => {
-    fetch("./assets/data.json").then(json => {
-        return  json.json();
-    }).then(data => {
-      console.log(data);
-    })
-  }
-
-  data();
 
   return (
     <View style={styles.container}>
