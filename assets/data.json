@@ -3,24 +3,24 @@
         "_id": {
             "$oid": "82kda23asj2392323182io23"
         },
-        "image": "should be some path",
+        "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/195234/05/sv01/fnd/IND/fmt/png",
         "brand": "puma",
         "rating": 23,
         "price": 98,
         "numReviews": 299,
         "isFeatured": true,
-        "name": "Puma Shoes",
+        "name": "Puma Shoes Large",
         "description": "alskdfjasl;kdf",
         "category": {
             "$oid": "82kda23asj2392323182io23"
         },
-        "countInStock": 67
+        "countInStock": 0
     },
     {
         "_id": {
             "$oid": "82kda23asj2392323182io23"
         },
-        "image": "should be some path",
+        "image": "https://5.imimg.com/data5/UG/KO/MY-51059215/adidas-bag-500x500.png",
         "brand": "Adidas",
         "rating": 23,
         "price": 98,
@@ -37,7 +37,7 @@
         "_id": {
             "$oid": "82kda23asj2392323182io23"
         },
-        "image": "should be some path",
+        "image": "http://nikeitupshoes.weebly.com/uploads/2/8/7/3/28734479/s970925954304085755_p10_i8_w378.jpeg",
         "brand": "Nike",
         "rating": 23,
         "price": 98,
@@ -54,7 +54,7 @@
         "_id": {
             "$oid": "82kda23asj2392323182io23"
         },
-        "image": "should be some path",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/11de4715-a626-4221-b253-548a897f30d9/air-jordan-7-retro-mens-shoes-7Zr804.png",
         "brand": "Jordan",
         "rating": 23,
         "price": 98,

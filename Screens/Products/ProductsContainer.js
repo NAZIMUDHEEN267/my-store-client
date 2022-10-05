@@ -17,11 +17,11 @@ const ProductContainer = () => {
     }, [])
 
     return (
-        <View>
+        <View style={{marginTop: 100}}>
             <Text>
                 Product Container
             </Text>
-            <View style={{marginTop: 100}}>
+            <View>
                 <FlatList
                     horizontal
                     data={products}
